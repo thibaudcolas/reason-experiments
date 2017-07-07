@@ -2,9 +2,17 @@
 
 > [Reason](https://facebook.github.io/reason/) implementations of small [OCaml](https://ocaml.org) experiments.
 
-## Forest fire cellular automata
+## Experiments
+
+### Forest fire cellular automata
 
 ![GIF of the forest fire in X11](docs/ocaml-fire.gif)
+
+```sh
+# OCaml version
+ocamlbuild -lib graphics src/fire.native
+./fire.native
+```
 
 This is a simple modelisation of forest fires. Cells are of the types:
 
@@ -20,26 +28,44 @@ Rules are:
 - Fire on a tree transforms it into ashes.
 - Trees start burning when one of their neighbours is burning.
 
-## Dragon curve
+### Dragon curve
 
 ![GIF of the dragon curve in X11](docs/ocaml-dragon.gif)
 
-## Mandelbrot fractal
+```sh
+# OCaml version
+ocamlbuild -lib graphics src/dragon.native
+./dragon.native
+```
+
+### Mandelbrot fractal
 
 ![GIF of the mandelbrot fractal in X11](docs/ocaml-mandelbrot.gif)
 
-## Drag and drop
+```sh
+# OCaml version
+ocamlbuild -lib graphics src/mandelbrot.native
+./mandelbrot.native
+```
+
+### Drag and drop
 
 ![GIF of the drag and drop in X11](docs/ocaml-dragndrop.gif)
 
-## In OCaml
+```sh
+# OCaml version
+ocamlbuild -lib graphics src/dragndrop.native
+./dragndrop.native
+```
 
+### Same game
+
+![GIF of the same game in X11](docs/ocaml-same.gif)
 
 ```sh
-ocamlbuild -lib graphics src/fire.native
-./fire.native
-ocamlbuild -lib graphics src/dragon.native
-./dragon.native
+# OCaml version
+ocamlbuild -lib graphics src/same.native
+./same.native
 ```
 
 ## Docs
