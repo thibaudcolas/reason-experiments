@@ -10,3 +10,5 @@ backstopjs
 vorlonjs.log
 _build
 *.native
+.merlin
+lib

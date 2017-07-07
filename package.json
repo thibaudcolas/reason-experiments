@@ -1,0 +1,23 @@
+{
+  "name": "reason-cells",
+  "version": "1.0.0",
+  "private": true,
+  "description": "> [Reason](https://facebook.github.io/reason/) implementations of small [OCaml](https://ocaml.org) cellular automata.",
+  "keywords": [],
+  "author": "Thibaud Colas",
+  "license": "MIT",
+  "homepage": "https://github.com/thibaudcolas/reason-cells#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thibaudcolas/reason-cells.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thibaudcolas/reason-cells/issues"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.7.4"
+  },
+  "scripts": {
+    "start": "bsb -w"
+  }
+}

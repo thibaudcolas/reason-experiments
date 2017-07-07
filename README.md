@@ -4,7 +4,7 @@
 
 ## Forest fire
 
-This is a very simple modelisation of forest fires. Cells are of the types:
+This is a simple modelisation of forest fires. Cells are of the types:
 
 - Empty
 - Trees
@@ -23,6 +23,6 @@ Rules are:
 ![GIF of the fire spreading in X11](docs/ocaml-fire.gif)
 
 ```sh
-ocamlbuild -lib graphics fire.native
-./fire.native
+ocamlbuild -lib graphics src/fire.native
+./src/fire.native
 ```
