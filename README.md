@@ -33,3 +33,12 @@ ocamlbuild -lib graphics src/fire.native
 ocamlbuild -lib graphics src/dragon.native
 ./dragon.native
 ```
+
+## Docs
+
+### Useful links
+
+- [http://www.ocaml-tutorial.org/](http://www.ocaml-tutorial.org/)
+- [http://caml.inria.fr/](http://caml.inria.fr/)
+- [http://ocamlgraph.lri.fr/](http://ocamlgraph.lri.fr/)
+- [http://www.lri.fr/~conchon/](http://www.lri.fr/~conchon/)
