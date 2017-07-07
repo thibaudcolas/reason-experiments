@@ -1,8 +1,10 @@
-# reason-cells
+# reason-experiments
 
-> [Reason](https://facebook.github.io/reason/) implementations of small [OCaml](https://ocaml.org) cellular automata.
+> [Reason](https://facebook.github.io/reason/) implementations of small [OCaml](https://ocaml.org) experiments.
 
-## Forest fire
+## Forest fire cellular automata
+
+![GIF of the forest fire in X11](docs/ocaml-fire.gif)
 
 This is a simple modelisation of forest fires. Cells are of the types:
 
@@ -18,11 +20,16 @@ Rules are:
 - Fire on a tree transforms it into ashes.
 - Trees start burning when one of their neighbours is burning.
 
+## Dragon curve
+
+![GIF of the dragon curve in X11](docs/ocaml-dragon.gif)
+
 ## In OCaml
 
-![GIF of the fire spreading in X11](docs/ocaml-fire.gif)
 
 ```sh
 ocamlbuild -lib graphics src/fire.native
-./src/fire.native
+./fire.native
+ocamlbuild -lib graphics src/dragon.native
+./dragon.native
 ```
