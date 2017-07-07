@@ -24,6 +24,10 @@ Rules are:
 
 ![GIF of the dragon curve in X11](docs/ocaml-dragon.gif)
 
+## Mandelbrot fractal
+
+![GIF of the mandelbrot fractal in X11](docs/ocaml-mandelbrot.gif)
+
 ## Drag and drop
 
 ![GIF of the drag and drop in X11](docs/ocaml-dragndrop.gif)
