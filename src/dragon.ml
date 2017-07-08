@@ -1,7 +1,7 @@
 open Graphics
 
 type direction = North | South | East | West
-type virage = Left | Right
+type turn = Left | Right
 
 let change_dir vir dir =
   match vir, dir with
