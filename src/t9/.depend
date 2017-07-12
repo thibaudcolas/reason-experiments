@@ -1,0 +1,8 @@
+clavier.cmi: 
+t9.cmi: 
+clavier.cmo: clavier.cmi 
+clavier.cmx: clavier.cmi 
+iphone.cmo: t9.cmi clavier.cmi 
+iphone.cmx: t9.cmx clavier.cmx 
+t9.cmo: t9.cmi 
+t9.cmx: t9.cmi 
