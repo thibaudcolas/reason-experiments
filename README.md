@@ -68,6 +68,16 @@ ocamlbuild -lib graphics src/same.native
 ./same.native
 ```
 
+### Maze generator
+
+![GIF of the maze generator in X11](docs/ocaml-maze.png)
+
+```sh
+# OCaml version
+ocamlbuild -lib graphics src/maze.native
+./maze.native
+```
+
 ## Docs
 
 ### Useful links
