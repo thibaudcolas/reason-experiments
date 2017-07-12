@@ -70,12 +70,24 @@ ocamlbuild -lib graphics src/same.native
 
 ### Maze generator
 
-![GIF of the maze generator in X11](docs/ocaml-maze.png)
+![Screenshot of the maze generator in X11](docs/ocaml-maze.png)
 
 ```sh
 # OCaml version
 ocamlbuild -lib graphics src/maze.native
 ./maze.native
+```
+
+### T9 keyboard
+
+![GIF of the T9 keyboard in X11](docs/ocaml-t9.png)
+
+```sh
+# OCaml version
+cd src/t9/
+gunzip words.txt.gz
+make
+./iphone
 ```
 
 ## Docs

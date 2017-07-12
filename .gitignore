@@ -12,3 +12,5 @@ _build
 *.native
 .merlin
 lib
+*.cmo
+*.cmi
