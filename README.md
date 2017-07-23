@@ -98,6 +98,14 @@ ocamlbuild -lib graphics src/wall.native
 ./wall.native
 ```
 
+### Simple cellular automata
+
+```sh
+# OCaml version
+ocamlbuild -lib graphics src/cell.native
+./cell.native
+```
+
 ## Docs
 
 ### Useful links
