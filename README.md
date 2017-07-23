@@ -90,6 +90,14 @@ make
 ./iphone
 ```
 
+### Wall combinations
+
+```sh
+# OCaml version
+ocamlbuild -lib graphics src/wall.native
+./wall.native
+```
+
 ## Docs
 
 ### Useful links
