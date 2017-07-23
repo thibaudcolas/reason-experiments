@@ -106,6 +106,14 @@ ocamlbuild -lib graphics src/cell.native
 ./cell.native
 ```
 
+### Abacus calculations
+
+```sh
+# OCaml version
+ocamlbuild -lib graphics src/abacus.native
+./abacus.native
+```
+
 ## Docs
 
 ### Useful links
