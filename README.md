@@ -80,7 +80,7 @@ ocamlbuild -lib graphics src/maze.native
 
 ### T9 keyboard
 
-![GIF of the T9 keyboard in X11](docs/ocaml-t9.png)
+![GIF of the T9 keyboard in X11](docs/ocaml-t9.gif)
 
 ```sh
 # OCaml version
