@@ -1,0 +1,11 @@
+couleur.cmi: 
+gris.cmi: 
+image.cmi: 
+couleur.cmo: couleur.cmi 
+couleur.cmx: couleur.cmi 
+gris.cmo: gris.cmi 
+gris.cmx: gris.cmi 
+image.cmo: image.cmi 
+image.cmx: image.cmi 
+quadtrees.cmo: image.cmi gris.cmi couleur.cmi 
+quadtrees.cmx: image.cmx gris.cmx couleur.cmx 
